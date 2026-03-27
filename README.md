@@ -39,4 +39,4 @@ ArchiTrack aims to become a complete digital studio environment for architecture
 
 ## 👨‍💻 Author
 
-Built by [Your Name]
+Built by TURYATEMBA JOHN
