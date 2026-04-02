@@ -3,7 +3,19 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/((?!assets/|favicon.svg|icons.svg).*)",
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/favicon.svg",
+      "destination": "/favicon.svg"
+    },
+    {
+      "source": "/icons.svg",
+      "destination": "/icons.svg"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
